@@ -6,6 +6,9 @@
 body{
     background-color: #2f2f2f;
 }
+button{
+    margin-left: 20px;
+}
 #contenedor{
     width: auto;
     height: auto;
@@ -33,6 +36,9 @@ body{
     border-radius: 50%;
     height: 150px;
     width: 150px;
+}
+.mod{
+    margin-top: 20px;
 }
 .cuerpo{
     padding: 25px;
