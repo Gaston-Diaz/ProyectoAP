@@ -2,37 +2,43 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
         <title>Prueba Portfolio</title>
     </head>
-    <body style="background-image: url(img/background.png);"> 
-        <div style="background-color: rgb(233, 176, 101);">
-            <p>Diego Gaston Diaz</p>
-            <img src="img/img1.jpg" alt="foto de Perfil" width="150" height="150" style="border-radius: 50%;">
-        </div>
-        <div style="background-color: rgb(206, 205, 205)">
-            <h3>Diego Gaston Diaz </h3>
-            <p>Estudiante de Informatica en la UNLP</p>
-            <p>La Plata, Buenos Aires (Argentina)</p>
-            <div>
-                <button >Tengo interés en</button>
-                <button>Añadir Sección</button>
-                <button>Más</button>
+    <body> 
+        <div id="contenedor">
+            <div class="header">
+                 <p>Diego Gaston Diaz</p>
+                 <img src="img/img1.jpg" alt="foto de Perfil" class="perfil">
             </div>
-        </div>
-        <div style="background-color: rgb(206, 205, 205)">
-            <h3>Acerca de</h3>
-            <p>Estudiante de la carrera de Lic. en Sistemas en la UNLP</p>
-        </div>
-        <div style="background-color: rgb(206, 205, 205)">
-            <h3>Educación</h3>
-            <div>
-                <h4>UNLP</h4>
-                <p>Licenciatura en Sistemas.</p>
-                <p>2015-Actualidad</p>
+
+            <div id="datos" class="banner">
+                <h3>Diego Gaston Diaz </h3>
+                <p>Estudiante de Informatica en la UNLP</p>
+                <p>La Plata, Buenos Aires (Argentina)</p>
+                <div style="margin-top: 5px; margin-left: 10px;">
+                     <button style="background-color:#ffcb74;" >Tengo interés en</button>
+                     <button>Añadir Sección</button>
+                     <button>Más</button>
+                </div>
             </div>
-            <div>
-                <h4>Escuela Secundaria San Carlos</h4>
+
+            <div id="contenido" class="banner">
+                 <h3>Acerca de</h3>
+                 <p>Estudiante de la carrera de Lic. en Sistemas en la UNLP</p>
+            </div>
+
+             <div class="banner">
+                 <h3>Educación</h3>
+                 <div>
+                     <h4>UNLP</h4>
+                     <p>Licenciatura en Sistemas.</p>
+                     <p>2015-Actualidad</p>
+                </div>
+
+                <div>
+                     <h4>Escuela Secundaria San Carlos</h4>
+                </div>
             </div>
         </div>
     </body>
