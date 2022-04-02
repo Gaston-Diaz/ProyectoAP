@@ -7,8 +7,15 @@ body{
     background-color: #2f2f2f;
 }
 button{
+    border-radius: 5px;
     margin-left: 20px;
+    padding: 1px;
 }
+progress[value]{
+    width: 600px;
+    height: 40px;
+}
+
 #contenedor{
     width: auto;
     height: auto;
