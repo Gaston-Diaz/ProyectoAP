@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="style.css">
-        
+        <script src="https://kit.fontawesome.com/9a3836248a.js" crossorigin="anonymous"></script>
         <title>Prueba Portfolio</title>
     </head>
     <body> 
@@ -17,7 +17,7 @@
 
             <div id="datos" class="cuerpo">
                 <div>
-                    <h3>Diego Gaston Diaz <button class="botonM">modificar</button></h3>
+                    <h3>Diego Gaston Diaz <button class="botonM"><i class="fa-solid fa-pen"></i></button></h3>
                     <p>Estudiante de Informatica en la UNLP </p>
                     <p>La Plata, Buenos Aires (Argentina)<a href="#">Información de Contacto</a></p>
                      <div style="margin-top: 30px;">
@@ -39,47 +39,73 @@
             </div>
 
             <div id="Educacion" class="cuerpo">
-                 <h3>Educación<button class="botonC">+</button></h3>
-                 <div class="mod" style="display: flex;">
+                 <h3>Educación<button class="botonC"><i class="fa-solid fa-plus"></i></button></h3>
+                 <div class="margen" style="display: flex;">
                      <img src="img/logoo-300x300.jpg" class="ico">
                      <div>
-                         <h4>UNLP<button class="botonM">modificar</button></h4>
+                         <h4>
+                             UNLP
+                             <button class="botonM"><i class="fa-solid fa-pen"></i></button>
+                             <button class="botonM"><i class="fa-solid fa-trash"></i></button>
+                         </h4>
                          <p>Licenciatura en Sistemas.</p>
                          <p>2014-Actualidad</p>
                     </div>
                 </div>
 
-                <div class="mod" style="display: flex;">
+                <div class="margen" style="display: flex;">
                     <img src="img/efcc0b99fc5625dbd66dc80216009226.jpg" class="ico">
                     <div>
-                         <h4>Escuela San Carlos<button class="botonM">modificar</button></h4>
-                         <p>Secundaria</p>
+                         <h4>
+                             Escuela San Carlos
+                             <button class="botonM"><i class="fa-solid fa-pen"></i></button>
+                             <button class="botonM"><i class="fa-solid fa-trash"></i></button>
+                         </h4>
+                         <p>Primaria-Secundaria</p>
                          <p>nose-2014</p>
                      </div>
                 </div>
             </div>
 
             <div id="Hard skills" class="cuerpo" style="position: relative;">
-                <h3>Hard Skills & Soft Skills</h3>
+                <h3>Hard Skills & Soft Skills<button class="botonC"><i class="fa-solid fa-plus"></i></button></h3>
                 <div>
-                     <p>Resolución de Problemas</p>
-                     <progress max="100" value="70"></progress>
+                     <p class="margen">Resolución de Problemas</p>
+                     <div style="display: flex;">
+                         <progress max="100" value="70"></progress>
+                         <button class="botonM"><i class="fa-solid fa-pen"></i></button>
+                         <button class="botonM"><i class="fa-solid fa-trash"></i></button>
+                     </div>
                 </div>
                 <div>
-                    <p>Diseño de Sistemas</p>
-                    <progress max="100" value="50"></progress>
+                    <p class="margen">Diseño de Sistemas</p>
+                    <div style="display: flex;">
+                         <progress max="100" value="50"></progress>
+                         <button class="botonM"><i class="fa-solid fa-pen"></i></button>
+                         <button class="botonM"><i class="fa-solid fa-trash"></i></button>
+                    </div>
                 </div>
             </div>
 
             <div id="Proyectos" class="cuerpo">
-                <h3>Proyectos<button class="botonC">+</button></h3>
+                <h3>
+                    Proyectos<button class="botonC"><i class="fa-solid fa-plus"></i></button>
+                </h3>
                 <div style="margin-top: 10px;">
-                    <h3 style="color:#ffcb74 ;">The Wall</h4>
-                    <p>Realizamos una red social para la materia de Seminario de Lenguaje PHP. Informatica UNLP.</p>
+                    <h3 class="colorPro" ;>"The Wall"</h3>
+                    <div style="display: flex;">
+                         <p>Desarrollo de una red social para la materia de Seminario de Lenguaje PHP. Informatica UNLP.</p>
+                         <button class="botonM"><i class="fa-solid fa-pen"></i></button>
+                         <button class="botonM"><i class="fa-solid fa-trash"></i></button>
+                    </div>
                 </div>
                 <div style="margin-top: 10px;">
-                    <h3 style="color: #ffcb74;">Portfolio</h4>
-                    <p>Desarrolo de Portfolio para el curso #yoprogramo. Argentina Programa.</p>
+                    <h3 class="colorPro">Portfolio</h3>
+                    <div style="display: flex;">
+                         <p>Desarrolo de Portfolio para el curso #yoprogramo. Argentina Programa.</p>
+                         <button class="botonM"><i class="fa-solid fa-pen"></i></button>
+                         <button class="botonM"><i class="fa-solid fa-trash"></i></button>
+                    </div>
                 </div>
             </div>
         </div>
