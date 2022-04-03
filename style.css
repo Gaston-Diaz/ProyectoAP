@@ -6,16 +6,10 @@
 body{
     background-color: #2f2f2f;
 }
-button{
-    border-radius: 5px;
-    margin-left: 20px;
-    padding: 1px;
-}
 progress[value]{
     width: 600px;
     height: 40px;
 }
-
 #contenedor{
     width: auto;
     height: auto;
@@ -25,6 +19,20 @@ progress[value]{
 #datos{
     display: flex;
     justify-content: space-between;
+}
+.botonM{
+    border-radius: 5px;
+    margin-left: 20px;
+    padding: 1px;
+}
+.botonP{
+    border-radius: 5px;
+    padding: 1px;
+}
+.botonC{
+    border-radius: 50%;
+    padding: 2px;
+    margin-left: 10px;
 }
 .header{
     margin-bottom: 8px;
