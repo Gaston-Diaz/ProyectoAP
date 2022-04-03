@@ -20,19 +20,25 @@ progress[value]{
     display: flex;
     justify-content: space-between;
 }
-.botonM{
-    border-radius: 5px;
+.botonM{/* BOTONES MODIFICAR*/
+    width: 20px;
+    height: 20px;
+   /* border-radius: 5px;*/
+    border: none;
     margin-left: 20px;
     padding: 1px;
     cursor: pointer;
 }
-.botonP{
+.botonP{ /* BOTONES DEL PERFIL */
     border-radius: 5px;
     padding: 1px;
     cursor:pointer;
 }
-.botonC{
-    border-radius: 50%;
+.botonC{ /* BOTON PARA AGREGAR DATOS +*/
+    width: 20px;
+    height: 20px;
+    /*border-radius: 50%;*/
+    border: none;
     padding: 1px;
     margin-left: 10px;
     cursor: pointer;
@@ -55,7 +61,7 @@ progress[value]{
     height: 150px;
     width: 150px;
 }
-.mod{
+.margen{
     margin-top: 20px;
 }
 .cuerpo{
